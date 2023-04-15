@@ -60,8 +60,8 @@
                     "type": "git",
                     "url": "https://github.com/trummerschlunk/master_me.git",
                     "disable-submodules": true,
-                    "tag": "1.1.0",
-                    "commit": "3406dc19a76569f92b245a3bcaeb082038e6fd36",
+                    "tag": "1.2.0",
+                    "commit": "bf17b07048077818243b5e6587385bac1372cef3",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
