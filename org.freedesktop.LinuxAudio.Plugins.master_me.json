@@ -59,32 +59,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/trummerschlunk/master_me.git",
-                    "disable-submodules": true,
                     "tag": "1.2.0",
                     "commit": "bf17b07048077818243b5e6587385bac1372cef3",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
                     }
-                },
-                {
-                    "type": "git",
-                    "url": "https://github.com/DISTRHO/DPF.git",
-                    "commit": "95e66eba1bb66109fe9df7ad3b4fb2665a4fd0c9",
-                    "dest": "dpf"
-                },
-                {
-                    "type": "git",
-                    "url": "https://github.com/DISTRHO/DPF-Widgets.git",
-                    "commit": "cc80bfd859bca6ad0ff40c8428f9c7865eedc54d",
-                    "dest": "dpf-widgets"
-                },
-                {
-                    "type": "git",
-                    "url": "https://github.com/falkTX/faustpp.git",
-                    "//": "branch use-internal=boost",
-                    "commit": "50667f23c4eeecf3d3a0565cd070e8f25edce14f",
-                    "dest": "faustpp"
                 },
                 {
                     "type": "file",
