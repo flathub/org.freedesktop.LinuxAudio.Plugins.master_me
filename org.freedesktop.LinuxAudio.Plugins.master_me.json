@@ -57,14 +57,9 @@
             ],
             "sources": [
                 {
-                    "type": "git",
-                    "url": "https://github.com/trummerschlunk/master_me.git",
-                    "tag": "1.2.0",
-                    "commit": "bf17b07048077818243b5e6587385bac1372cef3",
-                    "x-checker-data": {
-                        "type": "git",
-                        "tag-pattern": "^([\\d.]+)$"
-                    }
+                    "type": "archive",
+                    "url": "https://github.com/trummerschlunk/master_me/releases/download/1.2.0/master_me-1.2.0.tar.xz",
+                    "sha256": "8e3a5fc6e46bebd4bf7d4db69dea070609159f317bb42a212894b3af45f41d68"
                 },
                 {
                     "type": "file",
