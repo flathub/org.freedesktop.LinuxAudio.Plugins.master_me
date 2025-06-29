@@ -60,8 +60,15 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/trummerschlunk/master_me/releases/download/1.2.0/master_me-1.2.0.tar.xz",
-                    "sha256": "8e3a5fc6e46bebd4bf7d4db69dea070609159f317bb42a212894b3af45f41d68"
+                    "url": "https://github.com/trummerschlunk/master_me/releases/download/1.3.0/master_me-1.3.0-src.tar.xz",
+                    "sha256": "73ecf7b6eaab87008699e8094ebb39f07d5ecc063e965656dc344dc7fab1b8bc",
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://api.github.com/repos/trummerschlunk/master_me/releases/latest",
+                        "version-query": ".tag_name | sub(\"^jq-\"; \"\")",
+                        "url-query": "\"https://github.com/trummerschlunk/master_me/releases/download/\"  + ($version) + \"/master_me-\"  + ($version) + \"-src.tar.xz\""
+                    }
+
                 },
                 {
                     "type": "file",
