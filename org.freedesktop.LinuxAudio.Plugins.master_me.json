@@ -1,10 +1,10 @@
 {
     "id": "org.freedesktop.LinuxAudio.Plugins.master_me",
     "runtime": "org.freedesktop.LinuxAudio.BaseExtension",
-    "sdk": "org.freedesktop.Sdk//24.08",
+    "sdk": "org.freedesktop.Sdk//25.08",
     "runtime-version": "stable",
     "build-extension": true,
-    "branch": "24.08",
+    "branch": "25.08",
     "build-options": {
         "prefix": "/app/extensions/Plugins/master_me"
     },
@@ -15,7 +15,8 @@
             "build-options": {
                 "cxxflags": "-fpermissive",
                 "env": {
-                    "PREFIX": "${FLATPAK_DEST}"
+                    "PREFIX": "${FLATPAK_DEST}",
+                    "CMAKEOPT": "-DCMAKE_POLICY_VERSION_MINIMUM=3.5"
                 }
             },
             "build-commands": [
